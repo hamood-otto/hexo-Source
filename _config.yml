@@ -103,5 +103,5 @@ theme: Acrylic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/hamood-otto/hamood-otto.github.io.git
+  repo: git@github.com:hamood-otto/hexo-Source.git
   branch: master

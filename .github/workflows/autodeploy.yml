@@ -52,12 +52,12 @@ jobs:
           hexo generate
 
       - name: 部署到Github
-        run: |
-            hexo deploy
-        # uses: JamesIves/github-pages-deploy-action@v4
-        # with:
-        #   token: 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
-        #   repository-name: hamood-otto/hamood-otto.github.io
-        #   branch: master
-        #   folder: public
-        #   commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
+        # run: |
+        #     hexo deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: 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
+          repository-name: hamood-otto/hamood-otto.github.io
+          branch: master
+          folder: public
+          commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
