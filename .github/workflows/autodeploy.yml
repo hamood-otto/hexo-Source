@@ -55,7 +55,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: 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
-          repository-name: anzhiyu-a/anzhiyu-a.github.io
+          repository-name: hamood-otto/hexo-Source
           branch: master
           folder: public
           commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
