@@ -58,7 +58,7 @@ jobs:
         with:
           git-config-name: hamood-otto
           git-config-email: 420273899@qq.com
-          token: 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
+          token: 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
           repository-name: hamood-otto/hamood-otto.github.io
           branch: master
           folder: public
