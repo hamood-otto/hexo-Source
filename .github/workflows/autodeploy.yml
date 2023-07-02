@@ -56,6 +56,8 @@ jobs:
         #     hexo deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          git-config-name: hamood-otto
+          git-config-email: 420273899@qq.com
           token: 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
           repository-name: hamood-otto/hamood-otto.github.io
           branch: master
